@@ -58,6 +58,7 @@ class AssetController extends Controller
         $asset->description = $request->description;
         $asset->status = $request->status;
         $asset->update();
+        $updatedAsset = Asset::where('id', $request->id)->first();
         return redirect()->route('assets.index');
     }
 
