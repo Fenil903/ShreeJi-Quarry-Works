@@ -17,11 +17,20 @@ class AdminUserSeeder extends Seeder
 
         // Define Necessary Permissions (Add More as Needed)
         $defaultPermissions = [
+            'manage users',
+            'manage roles',
+            'manage permissions',
+            'manage tasks',
+            'manage inventory',
+            'manage purchases',
+            'manage fleet',
+            'manage assets',
+            'manage HR',
         ];
 
         // Create Permissions if They Don’t Exist
         foreach ($defaultPermissions as $permission) {
-            Permission::firstOrCreate(['name' => $permission['name'], 'guard_name' => 'web', 'group_name' => $permission['group_name']]);
+            Permission::firstOrCreate(['name' => $permission, 'guard_name' => 'web']);
         }
 
         // Fetch All Permissions & Assign to Admin Role

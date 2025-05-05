@@ -66,9 +66,6 @@ Route::middleware(['auth'])->group(function () {
     })->name('notifications.markAllAsRead');
 
     Route::prefix('admin')->group(function () {
-        Route::get('/', function () {
-            return redirect()->route('users.index');
-        })->name('admin.dashboard');
             // User Management
         Route::resource('users', UserController::class);
 
@@ -165,6 +162,3 @@ Route::middleware(['auth'])->group(function () {
     
     });
 });
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
