@@ -6,7 +6,7 @@
         <div class="col-md-5 center">
             <div class="card justify-content-center">
                 <div class="w-100 text-center p-4">
-                    <img src="./images/logo2.png" class="w-50 h-auto">
+                    <img src="./images/logo.png" class="w-50 h-auto">
                 </div>
 
                 <div class="card-body">
