@@ -4,7 +4,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="text-center">
         <a href="/" class="brand-link">
-            <span class="brand-text center">SHREEJI QUARRY WORKS</span>
+            <span class="brand-text center">SHIVSHAKTI TRANSPORTS</span>
         </a>
     </div>
     <div class="sidebar">
