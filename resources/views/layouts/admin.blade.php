@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHREEJI QUARRY WORKS</title>
+    <title>ShivShakti Transport</title>
     <link rel="stylesheet" href="{{ asset('adminlte/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Select2 -->
     <link rel="stylesheet" href="{{ asset('adminlte/plugins/select2/css/select2.min.css')}}">
@@ -100,7 +100,7 @@
 
         <!-- Footer -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2025 <a href="#">SHREEJI QUARRY WORKS</a>.</strong>
+            <strong>Copyright &copy; 2025 <a href="#">ShivShakti Transport</a>.</strong>
             All rights reserved.
         </footer>
     </div>
