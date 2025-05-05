@@ -18,21 +18,21 @@
     <section id="hero" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=Shreeji+Quarry+Works+Slider+1" alt="Slider Image 1">
+                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=ShivShakti+Transport+Slider+1" alt="Slider Image 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Welcome to Shreeji Quarry Works</h5>
+                    <h5>Welcome to ShivShakti Transport</h5>
                     <p>Your trusted partner for quality quarry and stone products.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=Shreeji+Quarry+Works+Slider+2" alt="Slider Image 2">
+                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=ShivShakti+Transport+Slider+2" alt="Slider Image 2">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Innovative Solutions</h5>
                     <p>Building a better future with reliable products and services.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=Shreeji+Quarry+Works+Slider+3" alt="Slider Image 3">
+                <img class="d-block w-100" src="https://placehold.co/1920x500.png?text=ShivShakti+Transport+Slider+3" alt="Slider Image 3">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Quality You Can Trust</h5>
                     <p>Serving the construction industry with top-notch materials.</p>
@@ -55,10 +55,10 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h2>About Us</h2>
-                    <p>Shreeji Quarry Works is a leading provider of high-quality quarry and stone products for the construction industry. We are committed to delivering materials that meet the highest standards, ensuring your projects are built to last. With years of experience and a dedicated team, we provide innovative solutions and exceptional service to our clients.</p>
+                    <p>ShivShakti Transport is a leading provider of high-quality quarry and stone products for the construction industry. We are committed to delivering materials that meet the highest standards, ensuring your projects are built to last. With years of experience and a dedicated team, we provide innovative solutions and exceptional service to our clients.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://placehold.co/500x300.png?text=About+Shreeji+Quarry+Works" alt="About Image" class="img-fluid rounded">
+                    <img src="https://placehold.co/500x300.png?text=About+ShivShakti+Transport" alt="About Image" class="img-fluid rounded">
                 </div>
             </div>
         </div>
