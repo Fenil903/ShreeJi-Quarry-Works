@@ -32,7 +32,7 @@ class PartController extends Controller
         ]);
 
         // Allocate the part to the asset
-        $asset->parts()->attach($request->part_id, ['quantity' => $request->quantity]);
+        $asset->parts()->attach($request->part_id, ['quantity' => $request->quantity, 'description' => $request->description]);
 
         return redirect()->route('assets.parts.index', $asset->id)->with('success', 'Part allocated successfully.');
     }
