@@ -25,6 +25,7 @@
                     <th>Date</th>
                     <th>Vehicle</th>
                     <th>Vehicle Type</th>
+                    <th>Trip Details</th>
                     <th>Fuel (Liter)</th>
                     <th>Avg. per Liter</th>
                     <th>Total Cost</th>
@@ -38,6 +39,13 @@
                         <td>{{ \Carbon\Carbon::parse($usage->date)->format('d-m-Y')}}</td>
                         <td>{{ $usage->vehicle->vehicle_number }}</td>
                         <td>{{ $usage->vehicle->vehicle_type }}</td>
+                        @if($usage->vehicle->vehicle_type == 'FIXED')   
+                            <td>{{ $usage->hours_used  }} Hrs</td>
+                        @elseif($usage->vehicle->vehicle_type == 'KMS')
+                            <td>{{ $usage->distance_covered }} Kms</td>
+                        @else
+                            <td>{{ number_format($usage->distance_covered,0) }} Trips</td>
+                        @endif
                         <td>{{ $usage->fuel_amount }}</td>
                         <td>{{ $usage->cost_per_liter }}</td>
                         <td>{{ $usage->fuel_amount * $usage->product->price }}</td>
