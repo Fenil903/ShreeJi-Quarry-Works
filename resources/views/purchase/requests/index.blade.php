@@ -54,6 +54,7 @@
                     <th>#</th>
                     <th>Request Number</th>
                     <th>Title</th>
+                    <th>Supplier</th>
                     <th>Status</th>
                     <th>Created By</th>
                     <th widht="10%">Actions</th>
@@ -65,6 +66,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $request->request_number }}</td>
                     <td>{{ $request->title }}</td>
+                    <td>{{ $request->supplier->name ?? 'N/A'}}</td>
                     <td>{{ ucfirst($request->status) }}</td>
                     <td>{{ $request->user->name }}</td>
                     <td>
