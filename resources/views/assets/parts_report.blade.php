@@ -24,7 +24,15 @@
                 </tr>
             </thead>
             <tbody>
+                @php
+                    $total = 0;
+                    $total_qty = 0;
+                @endphp
                 @foreach($reportData as $index => $row)
+                    @php
+                        $total += $row->avg_product_price * $row->product_quantity;
+                        $total_qty += $row->product_quantity;
+                    @endphp
                     <tr>
                         <td>{{ $index + 1 }}</td>
                         <td>{{ $row->asset_name }}</td>
@@ -48,6 +56,15 @@
                     </tr>
                 @endforeach
             </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="6" class="text-right">Total:</th>
+                    <th>{{ $total_qty }}</th>
+                    <th></th>
+                    <th>{{ number_format($total, 2) }}</th>
+                    <th></th>
+                </tr>
+            </tfoot>
         </table>
         <a href="{{ route('assets.index') }}" class="btn btn-secondary mt-3">Back to Asset List</a>
     </div>
