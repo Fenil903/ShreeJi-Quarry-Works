@@ -165,6 +165,14 @@ Route::middleware(['auth'])->group(function () {
     
     });
 });
+
+Route::get('/clear', function () {
+    Artisan::call('config:clear');
+    Artisan::call('cache:clear');
+    Artisan::call('config:cache');
+    return '✔ Cache cleared';
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
